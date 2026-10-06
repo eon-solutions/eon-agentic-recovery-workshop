@@ -1,0 +1,18 @@
+[project]
+name = "eon-agentic-recovery-workshop"
+version = "0.1.0"
+description = "Break It, Fix It, Prove It: an agentic ransomware recovery workshop on Eon, Strands and Amazon Bedrock"
+requires-python = ">=3.11"
+license = "MPL-2.0"
+license-files = ["LICENSE"]
+dependencies = [
+    "strands-agents>=1.53.0",
+    "boto3>=1.40",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+agentcore = ["bedrock-agentcore>=1.22.0"]
+
+[tool.uv]
+package = false
