@@ -107,6 +107,14 @@ publicly reachable, and that the recovered objects read as plaintext, not cipher
 
 ![The dashboard at the end: recovered and proven, with the entropy measurements](docs/images/dashboard-proven.png)
 
+## Going further
+
+Finished early? Three mock enterprise systems are running for the workshop as MCP servers:
+threat intelligence, IT service management with a CMDB, and a data catalog with lineage. They
+are optional and the agent does not use them yet. Wiring them in with your own coding
+assistant changes what the agent concludes, files and proves.
+[docs/mcp-mocks.md](docs/mcp-mocks.md) lists what each one offers and how to connect.
+
 ## What is in the box
 
 | Path | What it is |
